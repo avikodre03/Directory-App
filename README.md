@@ -31,7 +31,7 @@ Directory App is an Person Management System, a web application built using Reac
 2. Navigate to the project directory:
 
    ```bash
-   cd youtube-clone
+   cd Directory_App
    ```
 
 3. Install the dependencies:
