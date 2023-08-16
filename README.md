@@ -65,8 +65,9 @@ Directory App is an Person Management System, a web application built using Reac
    <p/>
       
 <p align="center">
-<img src="https://github.com/avikodre03/Directory-App/assets/116943966/5371f8eb-6fba-4a96-a7a6-b02d26a9c06c" width="500" height="300" />
+<img src="https://github.com/avikodre03/Directory-App/assets/116943966/ff16c163-d9d8-48db-8300-b70153422773" width="500" height="300" />
 </p>
+
 
 <P align="center">
 <strong>Retrieve Information Tab</strong><br>
