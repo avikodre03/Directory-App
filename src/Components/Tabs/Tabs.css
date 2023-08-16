@@ -1,0 +1,27 @@
+.wrapper-buttons{
+    
+   /* border: 2px solid blue; */
+   height: 10%;
+   width: 90%;
+   margin: auto;
+    display: flex;
+    align-items: center;
+   gap: 20px;
+}
+.button{
+   
+    padding: 12px ;
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.05);
+}
+.buttonActive{
+    background-color: rgba(0, 0, 0, 0.852);
+    color: white;
+}

@@ -1,0 +1,75 @@
+.find-wrapper {
+    display: flex;
+    align-items: center;
+
+    margin-top: 16px;
+}
+
+.find-wrapper button {
+    padding: 12px 28px;
+    color: white;
+    background-color: rgba(174, 97, 245, 0.934);
+}
+
+.find-wrapper input {
+    padding: 12px;
+    font-size: 1.2rem;
+    margin: 0 16px;
+
+    border-radius: 12px;
+    border: 1px solid gray;
+
+}
+
+.alert p {
+    padding-left: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+.user-Card {
+    border: 2px solid red;
+   
+    padding: 16px 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-left: 20px;
+    
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 370px;
+    border-radius: 12px;
+
+}
+
+.user-Card-left,
+.user-Card-right {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.user-Card-right{
+    font-weight: 500;
+}
+
+.data-found {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.data-found h1 {
+    text-align: center;
+
+}
+
+.data-found img {
+    height: 300px;
+    width: 300px;
+
+}
