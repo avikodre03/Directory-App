@@ -15,10 +15,10 @@ Directory App is an Person Management System, a web application built using Reac
 
 ## Technologies Used
 
--React
--JavaScript
--HTML
--CSS
+- React
+- JavaScript
+- HTML
+- CSS
 
 ## Installation
 
@@ -50,13 +50,13 @@ Directory App is an Person Management System, a web application built using Reac
 
 ## Usage
 
--Open the application in your web browser.
--Click on the "Add New Person" tab to add individual information.
--Fill in the required details including name, date of birth, Aadhar number, and mobile number.
--The age will be automatically calculated based on the date of birth.
--Click the "Save" button to store the information locally.
--To delete a row, click the "Delete" button. If saved, it will be removed from local storage as well.
--Switch to the "Retrieve Information" tab to access stored data.
+- Open the application in your web browser.
+- Click on the "Add New Person" tab to add individual information.
+- Fill in the required details including name, date of birth, Aadhar number, and mobile number.
+- The age will be automatically calculated based on the date of birth.
+- Click the "Save" button to store the information locally.
+- To delete a row, click the "Delete" button. If saved, it will be removed from local storage as well.
+- Switch to the "Retrieve Information" tab to access stored data.
 
 ## Screenshots
 
