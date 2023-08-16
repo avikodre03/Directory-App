@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Directory App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Directory App is an Person Management System, a web application built using React for managing individual's information. This application provides a user-friendly interface with two main tabs: "Add New Person" and "Retrieve Information.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Dynamically add new rows to the table.
+- Add a new person's information, including name, date of birth, Aadhar number, and mobile number.
+- Automatically calculate the age based on the date of birth.
+- Click the "Save" button to save the information (after validation) to local storage.
+- Click the "Delete" button to remove a row from the table (unsaved) or both local storage and table (saved).
+- Validation for Aadhar number and mobile number.
+- Easily switch between adding new persons and retrieving information.
+- Click on the "Retrieve Information" tab to access stored information.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-React
+-JavaScript
+-HTML
+-CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/your-username/Directory-App.git
+   ```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd youtube-clone
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
+  
+4. In a separate terminal, start the development server:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Open your browser and visit http://localhost:3000 to access Directory-App.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-Open the application in your web browser.
+-Click on the "Add New Person" tab to add individual information.
+-Fill in the required details including name, date of birth, Aadhar number, and mobile number.
+-The age will be automatically calculated based on the date of birth.
+-Click the "Save" button to store the information locally.
+-To delete a row, click the "Delete" button. If saved, it will be removed from local storage as well.
+-Switch to the "Retrieve Information" tab to access stored data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+<P align="center">
+   <strong>Add New Person Tab</strong><br>
+   <p/>
+      
+<p align="center">
+<img src="https://github.com/avikodre03/Directory-App/assets/116943966/5371f8eb-6fba-4a96-a7a6-b02d26a9c06c" width="500" height="300" />
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<P align="center">
+<strong>Retrieve Information Tab</strong><br>
+   <p/>
+      
+<p align="center">
+<img src="https://github.com/avikodre03/Directory-App/assets/116943966/c5b66ff7-4eed-425d-a77a-dd67a1ff6298" width="500" height="300" />
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Hosted Version
 
-### Code Splitting
+A hosted version of this project can be found [here](https://directory-app-hazel.vercel.app/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Video Explaination
 
-### Analyzing the Bundle Size
+Overview of This project can be found [here](https://drive.google.com/file/d/11NZBZ-vKOaNGaSa5FNEwCHhNw2hFd7J7/view?usp=drive_link)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author
 
-### Deployment
+[Avinash Kodre](https://github.com/avikodre03)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+If you have any questions or inquiries, please feel free to contact the project owner:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Name: Avinash Kodre.
+- Email: akodre111@gmail.com
+
+Thank you for using Directory-App! 
